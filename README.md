@@ -6,7 +6,7 @@ Quick download (run nvim on terminal and Lazy will download and install plugins)
 <details><summary> Mac and Linux </summary>
 
 ```sh
-git clone https://github.com/riel-m/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/riel-m/nvimconfig "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -15,14 +15,14 @@ git clone https://github.com/riel-m/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME
 
 Via `cmd.exe`:
 
-```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "%localappdata%\nvim"
+```sh
+git clone https://github.com/riel-m/nvimconfig "%localappdata%\nvim"
 ```
 
 Via `powershell.exe`
 
-```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+```sh
+git clone https://github.com/riel-m/nvimconfig "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>

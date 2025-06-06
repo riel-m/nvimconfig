@@ -68,8 +68,8 @@ vim.o.cursorline = true
 vim.o.scrolloff = 10
 
 vim.o.guicursor = table.concat({
-	"n-v-c:block-blinkwait100-blinkon500-blinkoff500",
-	"i-ci:ver25-blinkwait100-blinkon500-blinkoff500",
+	"n-v-c:blinkon0",
+	"i-ci:Block-blinkwait100-blinkon500-blinkoff500",
 }, ",")
 
 -- vim.opt.guicursor = "i:block-blinkwait1000-blinkon500-blinkoff500"
