@@ -242,20 +242,6 @@ return {
 					},
 				},
 
-				-- Laravel LSP
-				laravel_ls = {
-					cmd = {
-						"laravel-ls",
-					},
-					filetypes = {
-						"php",
-						"blade",
-					},
-					root_markers = {
-						"artisan",
-					},
-				},
-
 				-- Lua LSP
 				lua_ls = {
 					-- cmd = { ... },
