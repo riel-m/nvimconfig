@@ -1,7 +1,7 @@
 # nvimconfig
 My files for neovim
 
-Quick download (run nvim on terminal and Lazy will download and install plugins):
+Use my config: (after download: run nvim on terminal and Lazy will download and install plugins):
 
 <details><summary> Mac and Linux </summary>
 
