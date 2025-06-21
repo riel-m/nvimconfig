@@ -3,7 +3,7 @@ return {
 	build = ":Cord update",
 	opts = {
 		idle = {
-			details = "Bro doesnt know how to close vim 💀",
+			details = "bro can't exit vim 💀",
 			timeout = 420000,
 		},
 		text = {},
