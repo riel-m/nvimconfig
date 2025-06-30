@@ -219,7 +219,6 @@ return {
 			--  - settings (table): Override the default settings passed when initializing the server.
 			--        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
 			local servers = {
-				-- clangd = {},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
@@ -231,6 +230,24 @@ return {
 				-- But for many setups, the LSP (`ts_ls`) will work just fine
 				-- ts_ls = {},
 				--
+				-- Clang LSP
+				clangd = {
+					cmd = {
+						"clangd",
+						"--background-index",
+						"--clang-tidy",
+					},
+					filetypes = {
+						"c",
+						"cpp",
+						"objc",
+						"objcpp",
+					},
+					init_options = {
+						fallbackFlags = { "-std=c++20" }, -- Default standard if no compile_commands.json
+					},
+				},
+
 				-- Intelephense LSP
 				intelephense = {
 					cmd = {

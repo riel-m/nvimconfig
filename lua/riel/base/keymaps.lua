@@ -1,9 +1,13 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
--- Clear highlights on search when pressing <Esc> in normal mode
+-- Clear highlights on search when pressing dh in normal mode
 --  See `:help hlsearch`
 vim.keymap.set("n", "<leader>dh", "<cmd>nohlsearch<CR>")
+
+-- Line movement
+vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line down" })
+vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" })
 
 -- sets "jk" (changeable) to exit insert mode
 vim.keymap.set("i", "jk", "<Esc>", { desc = "Exit insert mode" })
