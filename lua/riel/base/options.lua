@@ -4,6 +4,7 @@
 --  For more options, you can see `:help option-list`
 
 -- vim.o.number = true -- Make line numbers default
+vim.o.number = true -- Set true line instead of '0'
 vim.o.relativenumber = true -- Relative number instead of numbers
 
 -- Enable mouse mode, can be useful for resizing splits for example!
