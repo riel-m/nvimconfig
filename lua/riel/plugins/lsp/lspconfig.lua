@@ -249,26 +249,26 @@ return {
 				},
 
 				-- Basedpyright
-				basedpyright = {
-					settings = {
-						basedpyright = {
-							analysis = {
-								-- ignorePatterns = { "*.pyi" },
-								-- diagnosticSeverityOverrides = {
-								-- 	reportCallIssue = "warning",
-								-- 	reportUnreachable = "warning",
-								-- 	reportUnusedImport = "none",
-								-- 	reportUnusedCoroutine = "warning",
-								-- },
-								autoSearchPaths = true,
-								diagnosticMode = "workspace",
-								useLibraryCodeForTypes = true,
-								typeCheckingMode = "basic",
-							},
-						},
-					},
-					filetypes = { "python" },
-				},
+				-- basedpyright = {
+				-- 	settings = {
+				-- 		basedpyright = {
+				-- 			analysis = {
+				-- 				-- ignorePatterns = { "*.pyi" },
+				-- 				-- diagnosticSeverityOverrides = {
+				-- 				-- 	reportCallIssue = "warning",
+				-- 				-- 	reportUnreachable = "warning",
+				-- 				-- 	reportUnusedImport = "none",
+				-- 				-- 	reportUnusedCoroutine = "warning",
+				-- 				-- },
+				-- 				autoSearchPaths = true,
+				-- 				diagnosticMode = "workspace",
+				-- 				useLibraryCodeForTypes = true,
+				-- 				typeCheckingMode = "openFilesOnly",
+				-- 			},
+				-- 		},
+				-- 	},
+				-- 	filetypes = { "python" },
+				-- },
 
 				-- Intelephense LSP
 				intelephense = {
