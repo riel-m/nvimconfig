@@ -1,2 +1,2 @@
-require 'riel.base.keymaps'
-require 'riel.base.options'
+require("riel.base.keymaps")
+require("riel.base.options")

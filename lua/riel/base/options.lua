@@ -26,6 +26,12 @@ vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"
 end)
 
+-- Indents --
+
+-- Smart Indents on
+-- vim.o.smartindent = true
+-- vim.o.autoindent = true
+
 -- Enable break indent
 vim.o.breakindent = true
 

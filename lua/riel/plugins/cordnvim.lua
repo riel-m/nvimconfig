@@ -1,5 +1,6 @@
 return {
 	"vyfor/cord.nvim",
+	---@type CordConfig
 	build = ":Cord update",
 	opts = {
 		-- editor = {
